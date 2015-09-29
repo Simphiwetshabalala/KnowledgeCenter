@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="action_settings">Settings</string>
+
+    <color name="smacBlue">#0FA1CC</color>
+    <color name="smacWite">#FFFFFF</color>
+    <color name="sbBlue">#31418C</color>
+    <color name="red">#FF0000</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <string name="title_activity_register">Register</string>
+    <string name="title_section1">News Headlines</string>
+    <string name="title_section2">Pick of the Day</string>
+    <string name="title_section3">Daily Prices</string>
+    <string name="title_section4">All Topics</string>
+    <string name="title_section5">Other Servics</string>
+    <string name="title_section6">Topics</string>
+    <string name="title_section7">Ask KC</string>
+    <string name="title_section8">Request Content</string>
+    <string name="title_section9">Settings</string>
+     <string name="title_section10">Profile</string>
+    <string name="title_activity_library">Library</string>
+    <string name="title_activity_personal">PersonalActivity</string>
+    <string name="title_activity_social">SocialActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <string-array name="Drawer">
+        <item>My Account</item>
+        <item>Books</item>
+        <item>Info</item>
+    </string-array>
+
+    <string name="title_activity_my_library">MyLibraryActivity</string>
+    <string name="title_activity_notice_board">NoticeBoardActivity</string>
+    <string name="app_name">Knowledge Centre</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Android Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">GCM: device successfully unregistered!</string>
+    <string name="gcm_message">GCM: you got message!</string>
+    <string name="gcm_error">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">Demo Server: successfully added device!</string>
+    <string name="server_unregistered">Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="ANumber">Employee Number</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_register2">Register2Activity</string>
+    <string name="title_activity_preferences2">Preferences2Activity</string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="title_activity_ask_kc">AskKCActivity</string>
+    <string name="title_activity_request_content">RequestContentActivity</string>
+
+</resources>

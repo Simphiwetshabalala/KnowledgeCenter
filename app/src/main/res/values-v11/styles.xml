@@ -1,0 +1,23 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+        <style name="AppBaseTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+    <style name="ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:icon">@drawable/standardbank</item>
+    
+</style>
+
+</resources>

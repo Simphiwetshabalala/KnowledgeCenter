@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".AskKCActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/layoutPrefs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/btnUpdatePrefers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_next"
+            android:visibility="invisible" />
+
+           <ProgressBar
+        android:id="@+id/progressBarPrefs"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Simphiwe/StudioProjects/KnowledgeCenter/app/src/main/res/layout/fragment_mypreferences.xml -->

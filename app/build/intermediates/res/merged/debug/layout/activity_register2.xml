@@ -1,0 +1,8 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.knowledgecenter.Register2Activity" />
+
+<!-- From: file:/C:/Users/Simphiwe/StudioProjects/KnowledgeCenter/app/src/main/res/layout/activity_register2.xml -->

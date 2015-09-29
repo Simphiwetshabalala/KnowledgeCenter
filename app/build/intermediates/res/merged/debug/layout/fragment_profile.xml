@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtFirstNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtLastNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtMAilProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textEmailAddress" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Logout" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Simphiwe/StudioProjects/KnowledgeCenter/app/src/main/res/layout/fragment_profile.xml -->

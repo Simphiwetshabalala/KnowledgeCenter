@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banner2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smacbooks.LoginAcitivty" >
+    
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/txtEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/genre" />
+
+        <EditText
+            android:id="@+id/txtPasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/genre" >
+           
+        </EditText>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/sbBlue"
+            android:text="Sign In"
+            android:textColor="@color/smacWite" />
+
+        <Button
+            android:id="@+id/btnAskKC"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/sbBlue"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/smacWite"
+            android:text="Create Account" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtErrorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Error"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
